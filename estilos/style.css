@@ -30,8 +30,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 617px;
-    width: 311px;
+    height: 564px;
+    width: 272px;
 
     background-color: blue;
     background: url('../imagens/frame-iphone.png') no-repeat;
@@ -39,9 +39,27 @@ body {
 
  iframe#tela {
     position: relative;
-    top: 80px;
-    left: 23px;
+    top: 70px;
+    left: 20px;
 
-    width: 269px;
-    height: 471px;
+    width: 233px;
+    height: 410px;
+ }
+
+ section#redes-sociais {
+    text-align: right;
+ }
+
+ section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+ }
+
+ section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.842);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.795);
  }
