@@ -8,8 +8,8 @@
 
 html, body {
     height: 100vh;
-    width: 100vw;
-    background-color: black;
+    position: relative;
+    background-image: url('../imagens/fundo-madeira.jpg') no-repeat top center;
 }
 
 body {
@@ -41,6 +41,7 @@ body {
     position: relative;
     top: 70px;
     left: 20px;
+    
 
     width: 233px;
     height: 410px;
@@ -48,10 +49,12 @@ body {
 
  section#redes-sociais {
     text-align: right;
+    padding-inline-end: 40px;
  }
 
  section#redes-sociais img {
     width: 50px;
+    overflow-x: hidden;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
@@ -62,4 +65,5 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.842);
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.795);
+    transition: transform 0.2s, border 0.5;
  }
